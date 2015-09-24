@@ -1,0 +1,21 @@
+.menu ul li { display: inline; }
+.menu ul li a {
+  color: black;
+  float: left;
+  text-decoration: none;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+}
+.menu:hover li a {
+  text-shadow: 0 0 2px #141414;
+  color: rgba(0,0,0,0);
+  -webkit-transition: all .3s;
+}
+.menu li a:hover {
+  color: black;
+  text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.menu li a:active {
+  position: relative;
+  top: 2px;
+}
